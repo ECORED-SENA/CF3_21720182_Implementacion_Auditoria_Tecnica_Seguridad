@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Fundamentos normativos y estándares de las políticas de un SGSI'

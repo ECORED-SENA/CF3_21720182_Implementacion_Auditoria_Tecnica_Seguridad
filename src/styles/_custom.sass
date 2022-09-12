@@ -2,14 +2,28 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 12%
+    left: 0%
+  &-3
+    animation: float2 1.8s ease-in-out infinite alternate
+    position: absolute
+    top: 45%
+    left: 38%
+  &-4
+    animation: float1 1.5s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    left: 5%
+  &-5
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 60%
+    right: 15%
 
 @keyframes float1
   0%
@@ -17,3 +31,106 @@
 
   100%
     transform: translateY(0px)
+
+
+@keyframes float2
+  0%
+    transform: translateY(10px)
+
+  100%
+    transform: translateY(0px)
+
+
+.titulo-principal__numero
+  background: $color-acento-contenido
+
+.titulo-principal__numero span,
+.boton *,
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero div,
+.img-infografica__item__numero
+    color: #fff !important;
+
+//acordion
+
+.tarjeta--gris
+  background-color: #F6F6F6
+
+.bg-gradient-cus
+  background: rgba(255,255,255, 0.2);
+  background: linear-gradient(343deg, rgba(97,140,235,0.2) 0%, rgba(217,171,244,0.2) 27%, rgba(131,210,241,0.2) 100%);
+  border: 0
+
+.border-img-cus
+  border: 1px solid rgba(107, 63, 209, .15)
+
+.acordion__activo
+  background: rgba(255,255,255, 0.2);
+  background: linear-gradient(343deg, rgba(97,140,235,0.2) 0%, rgba(217,171,244,0.2) 27%, rgba(131,210,241,0.2) 100%);
+  border: 0
+
+.img-infografica .img-infografica__item
+  width: 5.5%;
+
+.bg-img-infografica
+  background: #E9DFFC
+
+.tarjeta.color-1
+  background-color: rgba(0,75,137,0.2)
+
+.tarjeta.color-2
+  background-color: rgba(27,138,213,0.2)
+
+.tarjeta.color-3
+  background-color: rgba(54,37,85,0.2)
+
+.tarjeta.color-4
+  background-color: rgba(116,51,238,0.2)
+
+.bg-color-5
+  background-color: rgba(41,154,230,0.25)
+
+
+.img-hover-cus:hover img
+  top: -5%
+
+.tarjeta-avatar>img
+  width: 90px;
+
+.tarjeta-avatar
+  padding-top: 50px;
+
+.tarjeta-avatar .tarjeta
+  width: 100%;
+
+.tarjeta.bg-gradiente
+  background: rgba(255,255,255, 0.2);
+  background: linear-gradient(343deg, rgba(97,140,235,0.2) 0%, rgba(217,171,244,0.2) 27%, rgba(131,210,241,0.2) 100%);
+  border: 1px solid rgba(107, 63, 209, .15)
+
+////// Backgrounds
+
+.bg_img_01, .bg_img_02, .bg_img_03, .bg_img_04, .bg_img_05, .bg_gray, .bg_grad_01, .bg_grad_02, .bg_grad_03, .bg_grad_04, .bg_grad_05
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: - 3rem
+    width: calc( 100% + 6rem )
+    height: 100%
+
+.bg_img_01
+  &::before
+    background-image: url("../assets/curso/recursos/bg_img_01.svg")
+    background-repeat: no-repeat
+    background-position: top left
+    background-size: cover
+
+.bg_img_02
+  &::before
+    background-image: url("../assets/curso/recursos/bg_img_02.png")
+    background-repeat: no-repeat
+    background-position: top left
+    background-size: cover
