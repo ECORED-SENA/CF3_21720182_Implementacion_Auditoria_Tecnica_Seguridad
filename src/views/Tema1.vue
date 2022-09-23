@@ -204,7 +204,247 @@
               img(src='@/assets/curso/temas/t1/img14.jpg', alt='')
 
 
+    p.mb-4 Como ejemplo guía, en la siguiente tabla se catalogarán como riesgo las contraseñas de acceso a los sistemas de información dentro de la organización, que, para el ejemplo, recae sobre los directivos, empleados, contratistas y clientes.
 
+    .titulo-sexto.color-acento-contenido.my-4
+      h5 Tabla 1.
+      span Explicación contraseñas seguras
+
+    .tabla-a.mb-5
+      table
+        thead
+          tr
+            th Número de caracteres
+            th Solo números
+            th Letras minúsculas
+            th Letras mayúsculas
+            th Letras mayúsculas, minúsculas y número
+            th Letras mayúsculas, minúsculas, números y símbolos
+        tbody
+          tr
+            th 4
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+          tr
+            th 5
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+          tr
+            th 6
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo_claro 1 segundo
+            td.bg_rojo_claro 5 segundos
+          tr
+            th 7
+            td.bg_rojo Inmediatamente
+            td.bg_rojo Inmediatamente
+            td.bg_rojo_claro 25 segundos
+            td.bg_rojo_claro 1 minuto
+            td.bg_rojo_claro 6 minutos
+          tr
+            th 8
+            td.bg_rojo Inmediatamente
+            td.bg_rojo_claro 5 segundos
+            td.bg_rojo_claro 22 minutos
+            td.bg_rojo_claro 1 hora
+            td.bg_rojo_claro 8 horas
+          tr
+            th 9
+            td.bg_rojo Inmediatamente
+            td.bg_rojo_claro 2 minutos
+            td.bg_rojo_claro 19 horas
+            td.bg_rojo_claro_light 3 días
+            td.bg_rojo_claro_light 3 semanas
+          tr
+            th 10
+            td.bg_rojo Inmediatamente
+            td.bg_rojo_claro 58 minutos
+            td.bg_rojo_claro_light 1 día
+            td.bg_rojo_claro_light 7 meses
+            td.bg_rojo_claro_light 5 años
+          tr
+            th 11
+            td.bg_rojo 2 segundos
+            td.bg_rojo_claro_light 1 día
+            td.bg_rojo_claro_light 5 años
+            td.bg_amarillo 41 años
+            td.bg_amarillo 400 años
+          tr
+            th 12
+            td.bg_rojo 25 segundos
+            td.bg_rojo_claro_light 3 semanas
+            td.bg_amarillo 300 años
+            td.bg_amarillo 2 mil años
+            td.bg_amarillo 34 mil años
+
+          tr
+            th 13
+            td.bg_rojo_claro 4 minutos
+            td.bg_rojo_claro_light 1 año
+            td.bg_amarillo 16 mil años
+            td.bg_amarillo 100 mil años
+            td.bg_verde 2 mil años
+
+          tr
+            th 14
+            td.bg_rojo_claro 41 minutos
+            td.bg_amarillo 51 años
+            td.bg_amarillo 800 mil años
+            td.bg_verde 9 mil años
+            td.bg_verde 2 mil años
+
+          tr
+            th 15
+            td.bg_rojo_claro 6 horas
+            td.bg_amarillo 1000 años
+            td.bg_verde 43 millones de años
+            td.bg_verde 600 millones de años
+            td.bg_verde 15 billones de años
+
+          tr
+            th 16
+            td.bg_rojo_claro_light 2 días
+            td.bg_amarillo 34 mil años
+            td.bg_verde 2 billones de años
+            td.bg_verde 37 billones de años
+            td.bg_verde 1 trillón de años
+
+          tr
+            th 17
+            td.bg_rojo_claro_light 4 semanas
+            td.bg_amarillo 800 mil años
+            td.bg_verde 100 billones de años
+            td.bg_verde 2 trillones de años
+            td.bg_verde 93 trillones de años
+
+          tr
+            th 18
+            td.bg_rojo_claro_light 9 meses
+            td.bg_verde 23 millones de años
+            td.bg_verde 6 trillones de años
+            td.bg_verde 100 trillones de años
+            td.bg_verde 7 cuatrillones de años
+
+
+    .bg_img_01.my-5
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img15.jpg')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Mediante la técnica de pesca o los ataques phishing, se roba o suplanta la identidad de las personas. Las contraseñas de bajo nivel o fáciles son las primeras en ser vulneradas, por ello, una oportunidad identificada dentro de la política del SGSI es la adecuada creación de contraseñas y controles para su uso seguro; toda política debe ir de la mano con una transferencia de conocimiento donde se explique la misma junto a la normatividad legal, es importante tanto para la entidad como para el personal de la empresa, porque protegen a futuro la posible pérdida de información.
+
+      p.mb-4 Al realizar un análisis de riesgos, se puede utilizar una herramienta #[strong matriz tipo de gravedad * vulnerabilidades], asignando, en cada caso, algunas de las siguientes alternativas:
+
+      .row.mb-5.justify-content-center
+        .col-lg-6.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/img16.svg' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases =>
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.bg-purple
+              .p-4
+                h4.text-center.mt-5 Tipo de gravedad
+                p.text-center Baja, media, de gran importancia, crítica.
+
+        .col-lg-6.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/img17.svg' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases =>
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.bg-purple
+              .p-4
+                h4.text-center.mt-5 Vulnerabilidades
+                p.text-center Conocidas en recursos instalados, conocidas en recursos no instalados, no conocidas.
+                p.text-center #[strong Ejemplo: un #[i malware].]
+
+      p.my-5 Como ejemplo de lo indicado previamente, se tomará el hallazgo de un malware, donde dicha vulnerabilidad podría categorizarse de acuerdo con:
+
+
+      .row.mb-5.justify-content-center
+        .col-lg-4.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/img18.svg' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases =>
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.bg-purple
+              .p-4
+                h4.text-center.mt-5 Conocidas en recursos instalados
+                p.text-center La vulnerabilidad está en el equipo, es decir, el virus se encontraba al momento de activar y pasar el antivirus en el ordenador.
+
+        .col-lg-4.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/img19.svg' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases =>
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.bg-purple
+              .p-4
+                h4.text-center.mt-5 Conocidas en recursos no instalados
+                p.text-center El virus aparece por alerta de antivirus del mismo.
+
+        .col-lg-4.mb-5.mb-lg-0
+          .tarjeta-avatar
+            img(src='@/assets/curso/temas/t1/img20.svg' alt='AvatarTop')
+            //- .tarjeta debe ir acompañado de una de una de estas clases =>
+            //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+            //- estas clases tambien tienen un modificador --borde
+            .tarjeta.bg-purple
+              .p-4
+                h4.text-center.mt-5 No conocida
+                p.text-center El virus es nuevo (recién creado) y causa un daño pasando por alto el antivirus.
+
+      p.my-5 Continuando con el ejemplo previo y con base en la categorización descrita, el auditor podría, según su criterio, usar la siguiente tabla (matriz) para catalogar la gravedad del incidente, dependiendo de la fecha de ocurrencia y daño causado por el malware:
+
+      .titulo-sexto.color-acento-contenido.my-4
+        h5 Tabla 2.
+        span Matriz Gravedad x Vulnerabilidades
+
+      .tabla-a.mb-5
+        table
+          thead
+            tr
+              th Gravedad \ Vulnerabilidades
+              th Baja
+              th Media
+              th De gran importancia
+              th Crítica
+
+          tbody
+            tr
+              th Conocidas en recursos instalados
+              td.bg_amarillo
+              td.bg_rojo_claro_light
+              td.bg_rojo_claro
+              td.bg_rojo
+            tr
+              th Conocidas en recursos no instalados
+              td.bg_amarillo
+              td.bg_rojo_claro_light
+              td.bg_rojo_claro
+              td.bg_rojo
+            tr
+              th No conocidas
+              td.bg_amarillo
+              td.bg_rojo_claro_light
+              td.bg_rojo_claro
+              td.bg_rojo
+
+
+    p.mb-4 Asimismo, cuando aparecen o se detectan vulnerabilidades nuevas, se pueden clasificar con base en la matriz anterior.
+
+    p.mb-4 Para evitar ataques informáticos en la organización debido a las diferentes vulnerabilidades informáticas que aparecen día a día, se debe evaluar su estado de seguridad, y para ello, se deben tener en cuenta los mecanismos de control indicados a continuación, los cuales ayudan a mitigar y evitar la pérdida de información. Por ejemplo, la no actualización de las aplicaciones o los errores humanos son un gran agujero de vulnerabilidades del que se aprovechan los ciberdelincuentes:
 </template>
 
 <script>
@@ -226,6 +466,10 @@ export default {
 </script>
 
 <style lang="sass">
+
+.tarjeta-avatar > img
+  width: 140px;
+
 .bloque-1
   position: relative
 
