@@ -19,7 +19,7 @@
     p.mb-5(data-aos="fade-right") Entre las principales amenazas computacionales, se encuentra el ser humano (agente determinador), por medio de ataques informáticos creados, como:
 
 
-    .row.justify-content-center.align-items-end.position-relative.bloque-1
+    .row.justify-content-center.align-items-end.position-relative.bloque-1(data-aos="zoom-in")
       .col-lg-4
         .ps-lg-5.py-4.pt-lg-0
           ul.lista-ul--color.mb-0
@@ -42,10 +42,10 @@
 
 
 
-    p.my-5 Al planificar cómo lograr los objetivos de seguridad de la información, la entidad debe determinar:
+    p.my-5(data-aos="fade-right") Al planificar cómo lograr los objetivos de seguridad de la información, la entidad debe determinar:
 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-in")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t1/img3.svg' alt='AvatarTop', style="min-width: 136px")
@@ -76,7 +76,7 @@
             .p-4
               h4.text-center.mt-4 ¿Quién será el responsable?
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="zoom-in")
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t1/img4.svg' alt='AvatarTop', style="min-width: 136px")
@@ -99,11 +99,11 @@
 
     p.my-4 Para hacer el análisis de riesgo, es necesario determinar las amenazas y vulnerabilidades a las cuales un sistema de información se ve expuesto. En el siguiente análisis gráfico, se muestran los diferentes tipos de riesgos dentro de una organización.
 
-    .titulo-sexto.color-acento-contenido.my-4
+    .titulo-sexto.color-acento-contenido.my-4(data-aos="zoom-in")
       h5 Figura 1
       span Amenazas y vulnerabilidades
 
-    .bg_img_02
+    .bg_img_02(data-aos="fade-right")
       .row(data-aos="zoom-in").mb-5.justify-content-center
         .col-lg-8.col
 
@@ -112,11 +112,11 @@
 
 
 
-    p.my4 Esta consideración nace del hecho de que el activo más importante de las organizaciones son sus datos e información; si la organización cuenta con planes de actualización frecuentes programados, será siempre segura y su plataforma tecnológica estará menos expuesta; para ello, los procesos de auditoría deben ser prioritarios, asegurando la correcta adaptación tecnológica y planes de mejora, sin alterar los sistemas actuales y optimizando procesos informáticos.
+    p.my4(data-aos="fade-left") Esta consideración nace del hecho de que el activo más importante de las organizaciones son sus datos e información; si la organización cuenta con planes de actualización frecuentes programados, será siempre segura y su plataforma tecnológica estará menos expuesta; para ello, los procesos de auditoría deben ser prioritarios, asegurando la correcta adaptación tecnológica y planes de mejora, sin alterar los sistemas actuales y optimizando procesos informáticos.
 
-    p.mb-5 Dentro de las principales categorías de amenazas en la organización, se encuentran:
+    p.mb-5(data-aos="fade-right") Dentro de las principales categorías de amenazas en la organización, se encuentran:
 
-    .row.mb-5
+    .row.mb-5(data-aos="zoom-in")
       .col-md-6.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones.p-5
           .tarjeta-numerada__numero
@@ -154,11 +154,11 @@
             b Interrupción del <br>servicio
 
 
-    p.mb-4 Es importante indicar que, dentro del organigrama y manual de funciones, siempre se verifiquen las políticas de seguridad de la información con las líneas de negocio de la organización; si bien las amenazas son de manera general para todas las organizaciones del mundo, los planes de mejora y la implementación de políticas van acordes con los servicios de cada organización.
+    p.mb-4(data-aos="fade-right") Es importante indicar que, dentro del organigrama y manual de funciones, siempre se verifiquen las políticas de seguridad de la información con las líneas de negocio de la organización; si bien las amenazas son de manera general para todas las organizaciones del mundo, los planes de mejora y la implementación de políticas van acordes con los servicios de cada organización.
 
-    p.mb-4 A continuación, se describen los diferentes tipos de codificaciones:
+    p.mb-4(data-aos="fade-left") A continuación, se describen los diferentes tipos de codificaciones:
 
-    .tarjeta.bg-gradient-cus.p-4.mb-5
+    .tarjeta.bg-gradient-cus.p-4.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-md-4
@@ -204,13 +204,13 @@
               img(src='@/assets/curso/temas/t1/img14.jpg', alt='')
 
 
-    p.mb-4 Como ejemplo guía, en la siguiente tabla se catalogarán como riesgo las contraseñas de acceso a los sistemas de información dentro de la organización, que, para el ejemplo, recae sobre los directivos, empleados, contratistas y clientes.
+    p.mb-4(data-aos="fade-right") Como ejemplo guía, en la siguiente tabla se catalogarán como riesgo las contraseñas de acceso a los sistemas de información dentro de la organización, que, para el ejemplo, recae sobre los directivos, empleados, contratistas y clientes.
 
-    .titulo-sexto.color-acento-contenido.my-4
+    .titulo-sexto.color-acento-contenido.my-4(data-aos="zoom-in")
       h5 Tabla 1.
       span Explicación contraseñas seguras
 
-    .tabla-a.mb-5
+    .tabla-a.mb-5(data-aos="zoom-in")
       table
         thead
           tr
@@ -334,7 +334,7 @@
             td.bg_verde 7 cuatrillones de años
 
 
-    .bg_img_01.my-5
+    .bg_img_01.my-5(data-aos="zoom-in")
       .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img15.jpg')})`}"
@@ -344,7 +344,7 @@
 
       p.mb-4 Al realizar un análisis de riesgos, se puede utilizar una herramienta #[strong matriz tipo de gravedad * vulnerabilidades], asignando, en cada caso, algunas de las siguientes alternativas:
 
-      .row.mb-5.justify-content-center
+      .row.mb-5.justify-content-center(data-aos="zoom-in")
         .col-lg-6.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t1/img16.svg' alt='AvatarTop')
@@ -371,7 +371,7 @@
       p.my-5 Como ejemplo de lo indicado previamente, se tomará el hallazgo de un malware, donde dicha vulnerabilidad podría categorizarse de acuerdo con:
 
 
-      .row.mb-5.justify-content-center
+      .row.mb-5.justify-content-center(data-aos="zoom-in")
         .col-lg-4.mb-5.mb-lg-0
           .tarjeta-avatar
             img(src='@/assets/curso/temas/t1/img18.svg' alt='AvatarTop')
@@ -407,11 +407,11 @@
 
       p.my-5 Continuando con el ejemplo previo y con base en la categorización descrita, el auditor podría, según su criterio, usar la siguiente tabla (matriz) para catalogar la gravedad del incidente, dependiendo de la fecha de ocurrencia y daño causado por el malware:
 
-      .titulo-sexto.color-acento-contenido.my-4
+      .titulo-sexto.color-acento-contenido.my-4(data-aos="zoom-in")
         h5 Tabla 2.
         span Matriz Gravedad x Vulnerabilidades
 
-      .tabla-a.mb-5
+      .tabla-a.mb-5(data-aos="zoom-in")
         table
           thead
             tr
@@ -445,6 +445,170 @@
     p.mb-4 Asimismo, cuando aparecen o se detectan vulnerabilidades nuevas, se pueden clasificar con base en la matriz anterior.
 
     p.mb-4 Para evitar ataques informáticos en la organización debido a las diferentes vulnerabilidades informáticas que aparecen día a día, se debe evaluar su estado de seguridad, y para ello, se deben tener en cuenta los mecanismos de control indicados a continuación, los cuales ayudan a mitigar y evitar la pérdida de información. Por ejemplo, la no actualización de las aplicaciones o los errores humanos son un gran agujero de vulnerabilidades del que se aprovechan los ciberdelincuentes:
+
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-1.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t1/img21.svg', alt='Políticas de seguridad.', style='max-width: 184px;')
+
+        h4.text-center Políticas de seguridad.
+
+      .col-md.tarjeta.color-2.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t1/img22.svg', alt='Normatividad.', style='max-width: 184px;')
+
+        h4.text-center Normatividad.
+
+      .col-md.tarjeta.color-3.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t1/img23.svg', alt='Implementación.', style='max-width: 184px;')
+
+        h4.text-center Implementación.
+
+      .col-md.tarjeta.color-4.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/t1/img24.svg', alt='Mecanismos de seguridad informática.', style='max-width: 184px;')
+
+        h4.text-center Mecanismos de seguridad informática.
+
+    p.mb-4 Los objetivos de seguridad de la información se pueden validar mediante OWASP Top 10, una lista de las vulnerabilidades mayormente conocidas, que muestra los diferentes tipos de riesgos de seguridad que son peligrosos para las aplicaciones web de una organización. Dicha lista se renueva periódicamente para mantenerse a la vanguardia con la evolución de las amenazas cibernéticas que están en constante crecimiento, las cuales son:
+
+    .bg_img_01.my-5
+      #Tarjetas2
+        .row.mb-5.justify-content-center(data-aos="zoom-in")
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img25.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A01
+                  p Control de acceso roto
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img26.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A02
+                  p Fallos criptográficos
+
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img27.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A03
+                  p Inyección
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img28.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A04
+                  p Diseño inseguro
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img29.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A05
+                  p Configuración incorrecta de seguridad
+
+        .row.mb-5.justify-content-center(data-aos="zoom-in")
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img30.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A06
+                  p Componentes vulnerables y obsoletos
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img31.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A07
+                  p Fallos de identificación y autenticación
+
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img32.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A08
+                  p Fallas de integridad de software y datos
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img33.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A09
+                  p Registro de seguridad y fallas de monitoreo
+
+          .col-6.col-md-3.col-xl.mb-5.mb-lg-3
+            .tarjeta-avatar
+              img(src='@/assets/curso/temas/t1/img34.svg' alt='AvatarTop')
+              //- .tarjeta debe ir acompañado de una de una de estas clases =>
+              //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+              //- estas clases tambien tienen un modificador --borde
+              .tarjeta.bg-purple
+                .px-4
+                  h4 A10
+                  p Falsificación de solicitud del lado del servidor (SSRF)
+
+
+
+        .row.mb-5(data-aos="zoom-in").align-items-center
+          .col-lg-8
+            p.mb-4 Para reducir las brechas de seguridad, se puede diseñar una política de seguridad en las actividades de adquisición o desarrollo de software de la organización, en la que se incorpore la guía de OWASP Top 10. Con ella, se pueden identificar a tiempo las falencias en seguridad y cualquier vulnerabilidad en las aplicaciones, protegiendo la información de la organización.
+
+            p Después de realizar el análisis de vulnerabilidades o hacking ético e implementar las políticas de SGSI, se puede realizar, ante una entidad internacional, la declaración de Aplicabilidad en ISO 27001 (Statement of Applicability SoA), que es un documento previo a la auditoría de certificación.
+
+          .col-lg-4
+            figure.p-4
+              img(src='@/assets/curso/temas/t1/img35.svg' alt='AvatarTop')
 </template>
 
 <script>
@@ -469,6 +633,18 @@ export default {
 
 .tarjeta-avatar > img
   width: 140px;
+
+#Tarjetas2
+  .tarjeta
+    border-radius: 0
+  .tarjeta-avatar > img
+    position: absolute
+    width: 85px
+    left: 30%
+    top: 0
+    /*transform: translateX(-50%);*/
+    display: block
+    margin: 0 auto
 
 .bloque-1
   position: relative
