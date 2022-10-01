@@ -100,7 +100,7 @@
     p.my-4 Para hacer el análisis de riesgo, es necesario determinar las amenazas y vulnerabilidades a las cuales un sistema de información se ve expuesto. En el siguiente análisis gráfico, se muestran los diferentes tipos de riesgos dentro de una organización.
 
     .titulo-sexto.color-acento-contenido.my-4(data-aos="zoom-in")
-      h5 Figura 1
+      h5 Figura 1.
       span Amenazas y vulnerabilidades
 
     .bg_img_02(data-aos="fade-right")

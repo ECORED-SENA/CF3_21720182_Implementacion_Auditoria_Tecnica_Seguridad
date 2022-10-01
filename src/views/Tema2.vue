@@ -11,7 +11,7 @@
     p.mb-5 Al realizar el tratamiento de información, se activa el sistema de gestión de seguridad de la información, este es importante para prevenir y controlar los diferentes tipos de riesgos y vulnerabilidades, como se muestra en la siguiente figura:
 
     .titulo-sexto.color-acento-contenido.my-5(data-aos="zoom-in")
-      h5 Figura 2
+      h5 Figura 2.
       span Tipos de riesgos y vulnerabilidades
 
 
@@ -22,7 +22,7 @@
           img(src="@/assets/curso/temas/t2/img1.svg", alt="alt")
 
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.my-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t2/img2.jpg')})`}"
       )
@@ -97,6 +97,81 @@
               a.boton.color-acento-botones.texto-blanco(href="https://www.mintic.gov.co/gestionti/615/articles-5482_Modelo_de_Seguridad_Privacidad.pdf" target="_blank")
                 span Ir a sitio web
                 i.fas.fa-link
+
+
+    .titulo-sexto.color-acento-contenido.my-5(data-aos="zoom-in")
+      h5 Figura 3.
+      span Vulnerabilidades informáticas
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        figure.px-lg-5.mx-lg-5
+          img(src="@/assets/curso/temas/t2/img5.svg", alt="Imagen decorativa")
+
+    p.mb-4 Sin olvidar que los objetivos de seguridad de la información son:
+
+    .row.mb-5.justify-content-center(data-aos="zoom-in")
+      .col
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/img6.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases =>
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.bg-azul-cielo
+            .p-4.text-center
+              h5 Conservar la integridad
+
+      .col
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/img7.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases =>
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.bg-azul-cielo
+            .p-4.text-center
+              h5 Disponibilidad
+
+      .col
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/img8.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases =>
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.bg-azul-cielo
+            .p-4.text-center
+              h5 Privacidad
+
+      .col
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/img9.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases =>
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.bg-azul-cielo
+            .p-4.text-center
+              h5 Control
+
+      .col
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/img10.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases =>
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.bg-azul-cielo
+            .px-4.text-center
+              h5 Autenticidad de la información operada por medio de un ordenador
+
+    p.mb-4 En tal sentido, los usuarios deben tener disponibles todos los dispositivos del sistema cuando se requieran.  A continuación, se indican las funciones de las políticas de un SGSI.
+
+    .titulo-sexto.color-acento-contenido.my-5(data-aos="zoom-in")
+      h5 Figura 4.
+      span Función de las políticas del SGSI
+
+    .bg_gris.mb-5
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          figure.p-5
+            img(src="@/assets/curso/temas/t2/img11.svg", alt="Imagen decorativa")
 </template>
 
 <script>
@@ -119,4 +194,7 @@ export default {
 <style lang="sass">
 .bg-gradiente-2
   background: linear-gradient(to bottom, #7433EE, #3C1B7B);
+
+.bg-azul-cielo
+  background-color: #B8DDF7
 </style>
