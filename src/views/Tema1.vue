@@ -25,10 +25,10 @@
           ul.lista-ul--color.mb-0
             li.mb-2
               i.fas.fa-database
-              | Ransomware (secuestro de datos).
+              | <em>Ransomware</em> (secuestro de datos).
             li.mb-2
               i.fas.fa-database
-              | Malware.
+              | <em>Malware</em>.
             li.mb-2
               i.fas.fa-database
               | Gusanos.
@@ -272,14 +272,14 @@
             td.bg_rojo_claro_light 5 años
           tr
             th 11
-            td.bg_rojo 2 segundos
+            td.bg_rojo_claro 2 segundos
             td.bg_rojo_claro_light 1 día
             td.bg_rojo_claro_light 5 años
             td.bg_amarillo 41 años
             td.bg_amarillo 400 años
           tr
             th 12
-            td.bg_rojo 25 segundos
+            td.bg_rojo_claro 25 segundos
             td.bg_rojo_claro_light 3 semanas
             td.bg_amarillo 300 años
             td.bg_amarillo 2 mil años
@@ -299,7 +299,7 @@
             td.bg_amarillo 51 años
             td.bg_amarillo 800 mil años
             td.bg_verde 9 mil años
-            td.bg_verde 2 mil años
+            td.bg_verde 200 millones de años
 
           tr
             th 15
@@ -340,7 +340,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/t1/img15.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Mediante la técnica de pesca o los ataques phishing, se roba o suplanta la identidad de las personas. Las contraseñas de bajo nivel o fáciles son las primeras en ser vulneradas, por ello, una oportunidad identificada dentro de la política del SGSI es la adecuada creación de contraseñas y controles para su uso seguro; toda política debe ir de la mano con una transferencia de conocimiento donde se explique la misma junto a la normatividad legal, es importante tanto para la entidad como para el personal de la empresa, porque protegen a futuro la posible pérdida de información.
+          p.mb-0 Mediante la técnica de pesca o los ataques #[em phishing], se roba o suplanta la identidad de las personas. Las contraseñas de bajo nivel o fáciles son las primeras en ser vulneradas, por ello, una oportunidad identificada dentro de la política del SGSI es la adecuada creación de contraseñas y controles para su uso seguro; toda política debe ir de la mano con una transferencia de conocimiento donde se explique la misma junto a la normatividad legal, es importante tanto para la entidad como para el personal de la empresa, porque protegen a futuro la posible pérdida de información.
 
       p.mb-4 Al realizar un análisis de riesgos, se puede utilizar una herramienta #[strong matriz tipo de gravedad * vulnerabilidades], asignando, en cada caso, algunas de las siguientes alternativas:
 
@@ -368,7 +368,7 @@
                 p.text-center Conocidas en recursos instalados, conocidas en recursos no instalados, no conocidas.
                 p.text-center #[strong Ejemplo: un #[i malware].]
 
-      p.my-5 Como ejemplo de lo indicado previamente, se tomará el hallazgo de un malware, donde dicha vulnerabilidad podría categorizarse de acuerdo con:
+      p.my-5 Como ejemplo de lo indicado previamente, se tomará el hallazgo de un #[em malware], donde dicha vulnerabilidad podría categorizarse de acuerdo con:
 
 
       .row.mb-5.justify-content-center(data-aos="zoom-in")
@@ -405,7 +405,7 @@
                 h4.text-center.mt-5 No conocida
                 p.text-center El virus es nuevo (recién creado) y causa un daño pasando por alto el antivirus.
 
-      p.my-5 Continuando con el ejemplo previo y con base en la categorización descrita, el auditor podría, según su criterio, usar la siguiente tabla (matriz) para catalogar la gravedad del incidente, dependiendo de la fecha de ocurrencia y daño causado por el malware:
+      p.my-5 Continuando con el ejemplo previo y con base en la categorización descrita, el auditor podría, según su criterio, usar la siguiente tabla (matriz) para catalogar la gravedad del incidente, dependiendo de la fecha de ocurrencia y daño causado por el #[em malware]:
 
       .titulo-sexto.color-acento-contenido.my-4(data-aos="zoom-in")
         h5 Tabla 2.
@@ -574,7 +574,7 @@
               .tarjeta.bg-purple
                 .px-4
                   h4 A08
-                  p Fallas de integridad de software y datos
+                  p Fallas de integridad de <em>software</em> y datos
 
           .col-6.col-md-3.col-xl.mb-5.mb-lg-3
             .tarjeta-avatar
@@ -602,7 +602,7 @@
 
         .row.mb-5(data-aos="zoom-in").align-items-center
           .col-lg-8
-            p.mb-4 Para reducir las brechas de seguridad, se puede diseñar una política de seguridad en las actividades de adquisición o desarrollo de software de la organización, en la que se incorpore la guía de OWASP Top 10. Con ella, se pueden identificar a tiempo las falencias en seguridad y cualquier vulnerabilidad en las aplicaciones, protegiendo la información de la organización.
+            p.mb-4 Para reducir las brechas de seguridad, se puede diseñar una política de seguridad en las actividades de adquisición o desarrollo de #[em software] de la organización, en la que se incorpore la guía de OWASP Top 10. Con ella, se pueden identificar a tiempo las falencias en seguridad y cualquier vulnerabilidad en las aplicaciones, protegiendo la información de la organización.
 
             p Después de realizar el análisis de vulnerabilidades o hacking ético e implementar las políticas de SGSI, se puede realizar, ante una entidad internacional, la declaración de Aplicabilidad en ISO 27001 (Statement of Applicability SoA), que es un documento previo a la auditoría de certificación.
 

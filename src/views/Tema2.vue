@@ -99,6 +99,8 @@
                 i.fas.fa-link
 
 
+    p.my-4 Dentro de las necesidades de la seguridad informática o de la información, se deben analizar las vulnerabilidades más comunes en las organizaciones:
+
     .titulo-sexto.color-acento-contenido.my-5(data-aos="zoom-in")
       h5 Figura 3.
       span Vulnerabilidades informáticas
@@ -111,7 +113,7 @@
     p.mb-4 Sin olvidar que los objetivos de seguridad de la información son:
 
     .row.mb-5.justify-content-center(data-aos="zoom-in")
-      .col
+      .col.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/img6.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases =>
@@ -121,7 +123,7 @@
             .p-4.text-center
               h5 Conservar la integridad
 
-      .col
+      .col.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/img7.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases =>
@@ -131,7 +133,7 @@
             .p-4.text-center
               h5 Disponibilidad
 
-      .col
+      .col.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/img8.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases =>
@@ -141,7 +143,7 @@
             .p-4.text-center
               h5 Privacidad
 
-      .col
+      .col.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/img9.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases =>
@@ -151,7 +153,7 @@
             .p-4.text-center
               h5 Control
 
-      .col
+      .col.mb-4
         .tarjeta-avatar
           img(src='@/assets/curso/temas/t2/img10.svg' alt='AvatarTop')
           //- .tarjeta debe ir acompañado de una de una de estas clases =>

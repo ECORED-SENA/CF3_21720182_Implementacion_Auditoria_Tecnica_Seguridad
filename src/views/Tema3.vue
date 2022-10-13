@@ -23,7 +23,7 @@
             th B - Valor de la consecuencia
             th C - Probabilidad de la ocurrencia de la amenaza
             th D - Medidas de riesgos
-            th E - Ranking de amenaza
+            th E - <em>Ranking</em> de amenaza
         tbody
           tr
             th.bg_rojo_claro_light Amenaza 1
@@ -124,7 +124,7 @@
         .row.align-items-start.justify-content-center
           .col-lg-10
             .row.justify-content-center.align-items-center
-              .col-auto
+              .col-auto.d-none.d-m-block
                 figure
                   img(src='@/assets/curso/temas/t3/img6.svg', alt='')
 
@@ -134,31 +134,32 @@
 
             p.my-4 #[strong Riesgos detectados en la organización]
 
-            table.table(style="border: 2px solid #000; background: #fff")
-              thead
-                tr
-                  th.text-center Ítem
-                  th.text-center Riesgo
-                  th.text-center Probabilidad
-                  th.text-center Impacto
+            .table-responsive
+              table.table(style="border: 2px solid #000; background: #fff")
+                thead
+                  tr
+                    th.text-center Ítem
+                    th.text-center Riesgo
+                    th.text-center Probabilidad
+                    th.text-center Impacto
 
-              tbody
-                tr
-                  th.text-center 1
-                  td Extralimitación en el uso de un super usuario en una plataforma.
-                  td.text-center 3
-                  td.text-center 5
-                tr
-                  th.text-center 2
-                  td Continuar con accesos vigentes de las personas que se encuentran en vacaciones, licencias largas o que ya no laboran en la empresa.
-                  td.text-center 4
-                  td.text-center 3
+                tbody
+                  tr
+                    th.text-center 1
+                    td Extralimitación en el uso de un superusuario en una plataforma.
+                    td.text-center 3
+                    td.text-center 5
+                  tr
+                    th.text-center 2
+                    td Continuar con accesos vigentes de las personas que se encuentran en vacaciones, licencias largas o que ya no laboran en la empresa.
+                    td.text-center 4
+                    td.text-center 3
 
 
         .row.align-items-start.justify-content-center
           .col-lg-10
             .row.justify-content-center.align-items-center
-              .col-auto
+              .col-auto.d-none.d-m-block
                 figure
                   img(src='@/assets/curso/temas/t3/img7.svg', alt='')
 
@@ -166,46 +167,48 @@
                 p.mb-0 La siguiente tabla muestra la clasificación de probabilidad vs. impacto.
 
 
-            p.my-4 #[strong Riesgos detectados en la organización]
+            p.my-4 #[strong Clasificación de probabilidad vs. impacto.]
 
-            table.table(style="border: 2px solid #000; background: #fff")
-              thead
-                tr
-                  th.text-center(colspan="2") Probabilidad
-                  th.text-center(colspan="2") Impacto
+            .table-responsive
 
-              tbody
-                tr
-                  th.text-center 1
-                  td.text-center Muy bajo
-                  td.text-center 1
-                  td.text-center Muy bajo
-                tr
-                  th.text-center 2
-                  td.text-center Bajo
-                  td.text-center 2
-                  td.text-center Bajo
-                tr
-                  th.text-center 3
-                  td.text-center Moderado
-                  td.text-center 3
-                  td.text-center Moderado
-                tr
-                  th.text-center 4
-                  td.text-center Alto
-                  td.text-center 4
-                  td.text-center Alto
-                tr
-                  th.text-center 5
-                  td.text-center Muy alto
-                  td.text-center 5
-                  td.text-center Muy alto
+              table.table(style="border: 2px solid #000; background: #fff")
+                thead
+                  tr
+                    th.text-center(colspan="2") Probabilidad
+                    th.text-center(colspan="2") Impacto
+
+                tbody
+                  tr
+                    th.text-center 1
+                    td.text-center Muy bajo
+                    td.text-center 1
+                    td.text-center Muy bajo
+                  tr
+                    th.text-center 2
+                    td.text-center Bajo
+                    td.text-center 2
+                    td.text-center Bajo
+                  tr
+                    th.text-center 3
+                    td.text-center Moderado
+                    td.text-center 3
+                    td.text-center Moderado
+                  tr
+                    th.text-center 4
+                    td.text-center Alto
+                    td.text-center 4
+                    td.text-center Alto
+                  tr
+                    th.text-center 5
+                    td.text-center Muy alto
+                    td.text-center 5
+                    td.text-center Muy alto
 
 
         .row.align-items-start.justify-content-center
           .col-lg-10
             .row.justify-content-center.align-items-center
-              .col-auto
+              .col-auto.d-none.d-m-block
                 figure
                   img(src='@/assets/curso/temas/t3/img7.svg', alt='')
 
@@ -231,7 +234,7 @@
               img(src='@/assets/curso/temas/t3/img9.png', alt='')
 
     .row.justify-content-center.align-items-center
-      .col-auto
+      .col-auto.d-none.d-m-block
         figure
           img(src='@/assets/curso/temas/t3/img10.svg', alt='')
 
@@ -244,7 +247,9 @@
 
     .row.justify-content-center
       .col-lg-10
-        .table-responsive
+        figure.d-md-none.d-block
+          img(src='@/assets/curso/temas/t3/tabla_informe.svg', alt='')
+        .table-responsive.d-none.d-md-block
           table.table(style="border: 2px solid #000; background: #fff")
             tbody
               tr.bg-purple-dark.border-y-2px
@@ -292,7 +297,7 @@
               tr.border-y-2px.bg-purple
                 th.text-center.border-x-2px Código
                 th.text-center.border-x-2px Nombre
-                th.text-center.border-x-2px Responsable de diligenciarlo
+                th.text-center.border-x-2px(width="140px") Responsable de diligenciarlo
                 th.text-center.border-x-2px Lugar de archivo
                 th.text-center.border-x-2px Criterio de archivo
                 th.text-center.border-x-2px Tiempo de retención
@@ -347,4 +352,11 @@ export default {
 
 .tarjeta--boton:hover
   background-color: #E8DDFC
+
+@media screen and (max-width: 600px)
+  th
+    width: 130px
+
+  td
+    font-size: 0.8rem
 </style>

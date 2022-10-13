@@ -118,7 +118,7 @@ export default {
       referencia:
         'Oficina de Seguridad para las Redes Informáticas. (s. f.). Metodología para la gestión de la seguridad informática (Proyecto).',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://instituciones.sld.cu/dnspminsap/files/2013/08/Metodologia-PSI-NUEVAProyecto.pdf',
     },
     {
@@ -133,7 +133,7 @@ export default {
       referencia:
         'Departamento Nacional de Planeación [DNP]. (2011, 14 de julio). Lineamientos de política para ciberseguridad y ciberdefensa (Documento Conpes 3701).',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3701.pdf',
     },
     {
@@ -141,7 +141,7 @@ export default {
       referencia:
         'Departamento Nacional de Planeación [DNP]. (2016, 11 de abril). Política Nacional de Seguridad Digital (Documento Conpes 3854).',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3854.pdf',
     },
     {
@@ -149,14 +149,14 @@ export default {
       referencia:
         'Consejo de Europa. (2001). Serie de Tratados Europeos nº 185. Convenio sobre la ciberdelincuencia.',
       tipo: 'PDF',
-      descarga: 'https://www.oas.org/juridico/english/cyb_pry_convenio.pdf',
+      link: 'https://www.oas.org/juridico/english/cyb_pry_convenio.pdf',
     },
     {
       tema: 'Tratamiento de riesgos',
       referencia:
         'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2016a). Guía de gestión de riesgos. Seguridad y privacidad de la información.',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_G7_Gestion_Riesgos.pdf',
     },
     {
@@ -164,7 +164,7 @@ export default {
       referencia:
         'Ministerio de Tecnologías de la Información y las Comunicaciones [MinTIC]. (2016b). Modelo de Seguridad y Privacidad de la Información.',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://www.mintic.gov.co/gestionti/615/articles-5482_Modelo_de_Seguridad_Privacidad.pdf',
     },
     {
@@ -172,7 +172,7 @@ export default {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2009). Tecnología de la Información. Técnicas de seguridad. Gestión del riesgo en la seguridad de la información (NTC-ISO/IEC 27005).',
       tipo: 'PDF',
-      descarga:
+      link:
         'https://gmas2.envigado.gov.co/gmas/downloadFile.public?repositorioArchivo=000000001071&ruta=/documentacion/0000001359/0000000107',
     },
     {
@@ -208,12 +208,12 @@ export default {
     {
       termino: 'Log',
       significado:
-        'dentro de la guía de subproceso de policía judicial en Colombia, se encuentran definiciones de la unidad de delitos informáticos de la Fiscalía General de la Nación (FGN, 2009). <br>Un log es un registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un log es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (who, what, when, where y why, W5) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los logs son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada log generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez, la palabra log se relaciona con el término evidencia digital, un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del log y deja al descubierto la actividad registrada en el mismo.',
+        'dentro de la guía de subproceso de policía judicial en Colombia, se encuentran definiciones de la unidad de delitos informáticos de la Fiscalía General de la Nación (FGN, 2009). <br>Un <em>log</em> es un registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un log es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (<em>who, what, when, where y why</em>, W5) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los logs son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada log generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez, la palabra <em>log</em> se relaciona con el término evidencia digital, un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del log y deja al descubierto la actividad registrada en el mismo.',
     },
     {
       termino: 'MinTIC',
       significado:
-        'Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia.',
+        '  Ministerio de Tecnologías de la Información y las Comunicaciones de Colombia.',
     },
     {
       termino: 'SGSI',
@@ -222,7 +222,7 @@ export default {
     {
       termino: 'Seguridad informática',
       significado:
-        'Gómez (2006) define la seguridad informática como cualquier medida que impida la ejecución de operaciones no autorizadas sobre un sistema o red informática cuyos efectos puedan conllevar daños sobre la información, equipo o software. Por su parte, Kissel (2012) la define como la protección de información y sistemas de información de acceso no autorizado.',
+        '  Gómez (2006) define la seguridad informática como cualquier medida que impida la ejecución de operaciones no autorizadas sobre un sistema o red informática cuyos efectos puedan conllevar daños sobre la información, equipo o software. Por su parte, Kissel (2012) la define como la protección de información y sistemas de información de acceso no autorizado.',
     },
     {
       termino: 'Sistema de información',
@@ -271,7 +271,7 @@ export default {
     },
     {
       referencia:
-        'Gómez, A. (2006). Enciclopedia de la Seguridad Informática. RA-Ma .',
+        'Gómez, A. (2006). Enciclopedia de la Seguridad Informática. RA-Ma.',
       link: '',
     },
     {
@@ -301,7 +301,7 @@ export default {
       referencia:
         'Ley Estatutaria 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Octubre 17 de 2012. D.O. No. 48587. ',
       link:
-        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_1581_2012.pdf',
+        'https://www.unicauca.edu.co/versionP/sites/default/files/files/LEY_1581_DE_2012.pdf',
     },
     {
       referencia:
@@ -354,9 +354,30 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable Equipo Desarrollo Curricular',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'César Antonio Villamizar Núñez',
+        cargo: 'Experto Temático',
+        centro:
+          'Región Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Gustavo Santis Mancipe',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Regional Distrito Capital – Centro de Gestión Industrial',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de Estilo',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
     ],
     desarrolloProducto: [

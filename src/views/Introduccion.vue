@@ -15,8 +15,8 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/V5Pq2Isuu3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Fundamentos y aplicaciones de políticas de SGSI
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/4uCOeKUQtW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Fundamentos normativos y estándares de las políticas de un SGSI
 
 </template>
 
