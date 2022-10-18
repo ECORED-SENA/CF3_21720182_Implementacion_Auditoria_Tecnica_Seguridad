@@ -25,7 +25,7 @@
           ul.lista-ul--color.mb-0
             li.mb-2
               i.fas.fa-database
-              | <em>Ransomware</em> (secuestro de datos).
+              | <em>Ransomware</em>&nbsp; (secuestro de datos).
             li.mb-2
               i.fas.fa-database
               | <em>Malware</em>.

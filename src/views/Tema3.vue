@@ -113,7 +113,7 @@
                 img(src='@/assets/curso/temas/t3/img5.svg', alt='Imagen decorativa')
 
           h4.text-center Columna E
-          p.text-small Al finalizar, dependiendo del nivel de riesgo o vulnerabilidad de los resultados, el auditor decide si dejar el ranking de las amenazas dentro de la matriz.
+          p.text-small Al finalizar, dependiendo del nivel de riesgo o vulnerabilidad de los resultados, el auditor decide si dejar el #[em ranking] de las amenazas dentro de la matriz.
 
 
     p.my-4 Con el fin de complementar lo descrito con anterioridad, a continuación, se muestra un ejemplo práctico para la realización de una matriz de riesgos:

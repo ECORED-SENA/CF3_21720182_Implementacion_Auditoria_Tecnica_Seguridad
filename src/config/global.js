@@ -180,7 +180,7 @@ export default {
       referencia:
         'Microsoft. (s. f.). Cómo crear una contraseña segura para tu cuenta de Microsoft.',
       tipo: 'Página web',
-      descarga:
+      link:
         'https://support.microsoft.com/es-es/account-billing/c%C3%B3mo-crear-una-contrase%C3%B1a-segura-para-tu-cuenta-de-microsoft-f67e4ddd-0dbe-cd75-cebe-0cfda3cf7386',
     },
   ],
@@ -208,7 +208,7 @@ export default {
     {
       termino: 'Log',
       significado:
-        'dentro de la guía de subproceso de policía judicial en Colombia, se encuentran definiciones de la unidad de delitos informáticos de la Fiscalía General de la Nación (FGN, 2009). <br>Un <em>log</em> es un registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un log es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (<em>who, what, when, where y why</em>, W5) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los logs son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada log generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez, la palabra <em>log</em> se relaciona con el término evidencia digital, un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del log y deja al descubierto la actividad registrada en el mismo.',
+        'dentro de la guía de subproceso de policía judicial en Colombia, se encuentran definiciones de la unidad de delitos informáticos de la Fiscalía General de la Nación (FGN, 2009). <br>Un <em>log</em> es un registro oficial de eventos durante un periodo de tiempo en particular. Para los profesionales en seguridad informática un <em>log</em> es usado para registrar datos o información sobre quién, qué, cuándo, dónde y por qué (<em>who, what, when, where y why</em>, W5) un evento ocurre para un dispositivo en particular o aplicación. La mayoría de los <em>logs</em> son almacenados o desplegados en el formato estándar, el cual es un conjunto de caracteres para dispositivos comunes y aplicaciones. De esta forma, cada <em>log</em> generado por un dispositivo en particular puede ser leído y desplegado en otro diferente. A su vez, la palabra <em>log</em> se relaciona con el término evidencia digital, un tipo de evidencia física construida de campos magnéticos y pulsos electrónicos que pueden ser recolectados y analizados con herramientas y técnicas especiales, lo que implica la lectura del <em>log</em> y deja al descubierto la actividad registrada en el mismo.',
     },
     {
       termino: 'MinTIC',
